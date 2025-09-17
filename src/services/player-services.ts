@@ -1,6 +1,5 @@
 import { ok, notContent, createContent, badRequest  } from "../utils/http-helper";
 import * as repository from '../repositories/players-repository' // Importa tudo como repository
-import { Request, Response } from "express";
 import { PlayerModel } from "../models/player-model";
 import { statisticsModel } from "../models/statistics-model";
 
@@ -35,7 +34,6 @@ export const getPlayerByIdService = async (id: number) => {
 
 
 export const postPlayerService = async (data: PlayerModel) => {
-    // const insert = await repository.insertPlayer(data)
 
     let response = null
 

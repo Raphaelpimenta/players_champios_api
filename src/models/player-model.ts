@@ -14,22 +14,3 @@ export interface PlayerModel {
     Physical: number;
   };
 }
-
-
-
-// {
-//   "id": 999,
-//   "name": "Raphael Pimenta",
-//   "club": "TIMAO EOOO",
-//   "nationality": "Brasil",
-//   "position": "Atacante NATO",
-//   "statistics": {
-//     "Overall": 99,
-//     "Pace": 50,
-//     "Shooting": 50,
-//     "Passing": 50,
-//     "Dribbling": 50,
-//     "Defending": 50,
-//     "Physical": 50
-//   };
-// }
