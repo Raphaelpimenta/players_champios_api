@@ -1,0 +1,11 @@
+{
+  
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "es6",
+    // and npm install -D @types/node
+    "strict": true,
+    "esModuleInterop": true,
+  }
+}
